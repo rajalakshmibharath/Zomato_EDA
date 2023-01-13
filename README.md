@@ -1,7 +1,110 @@
-# Zomato_EDA
- 
+# Zomato EDA
+
+## Introduction
+The dataset is about Zomato restaurants. It is taken from Kaggle, where data has been collected from the Zomato API.
+
+The data has been stored in the Comma Separated Value file Zomato.csv. Each restaurant in the dataset is uniquely identified by its Restaurant Id. Every Restaurant contains the following variables.
+
+• Restaurant Id : Unique id of every restaurant across various cities of the world
+
+• Restaurant Name : Name of the restaurant
+
+• Country Code : Country in which restaurant is located
+
+• City : City in which restaurant is located
+
+• Address : Address of the restaurant
+
+• Locality : Location in the city
+
+• Locality Verbose : Detailed description of the locality
+
+• Longitude : Longitude coordinate of the restaurant's location
+
+• Latitude : Latitude coordinate of the restaurant's location
+
+• Cuisines : Cuisines offered by the restaurant
+
+• Average Cost for two: Cost for two people in different currencies
+
+• Currency : Currency of the country
+
+• Has Table booking : yes/no
+
+• Has Online delivery : yes/ no
+
+• Is delivering : yes/ no
+
+• Switch to order menu: yes/no
+
+• Price range : range of price of food
+
+• Aggregate Rating : Average rating out of 5
+
+• Rating color : depending upon the average rating color
+
+• Rating text : text on the basis of rating of rating
+
+• Votes : Number of ratings casted by people
+
+We also have another datset with country_code and country name as seperate csv file which is also used in this notebook.
+
+## About the company
+
+"Zomato" is an Indian multinational restaurant aggregator and food delivery company founded by Deepinder Goyal and Pankaj Chaddah in 2008.
+
+Zomato provides information, menus and user-reviews of restaurants as well as food delivery options from partner restaurants in select cities.
+
+Launched in 2010, their technology platform connects customers, restaurant partners and delivery partners, serving their multiple needs. Customers use the platform to search and discover restaurants, read and write customer generated reviews and view and upload photos, order food delivery, book a table and make payments while dining-out at restaurants.
+
+On the other hand, they provide restaurant partners with industry-specific marketing tools which enable them to engage and acquire customers to grow their business while also providing a reliable and efficient last mile delivery service.
+
+They also operate a one-stop procurement solution, Hyperpure, which supplies high quality ingredients and kitchen products to restaurant partners.They provide their delivery partners with transparent and flexible earning opportunities.
 Exploratory Data Analysis on Zomato Restaurants
 
+## Questions to be answered through analysis
+
+The following are the question to be analysed.
+
+Q1. How many countries do zomato provide their service? In which countries they have maximum transactions?
+
+Q2. How many cities from each country have Zomato service? Which are the top 5 cities with maximum outlets?
+
+Q3. Which are the cities that have only one restaurant partnered with zomato and to which country they belong?
+
+Q4. In which countries most of the restaurants have good ratings?
+
+Q5. Which are the popular cuisines that were assessed excellent? And which cusines were assessed poor mostly?
+
+Q6. Which are the top 15 restaurants with maximum outlets? And in which cities these outlets are more?
+
+Q7. Name the popular restaurants with respect to ratings?
+
+Q8. Does Online delivery option and Table booking option impact customer satisfaction?
+
+Q9. Does cost have impact on ratings?
+
+Q10. Which are the most expensive zomato partnered restaurants around the world and to which cities they belong?
+
+Q11. How do we improve business in US and UK since these countries have the most transaction next to India?
+
+Q12. Why the transactions are less in Canada ?
+
+Q13. In Australia more number of cities have zomato service still the transaction is less. What is the reason and how can it be improved?
+
+Q14. How transactions in Qatar can be increased ?
+
+## Preliminary EDA
+
+![](images/img1.png)
+
+![](images/img2.png)
+
+![](images/img3.png)
+
+![](images/img4.png)
+
+![](images/img5.png)
 
 ![](image.png)
 
